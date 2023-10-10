@@ -1,7 +1,7 @@
 const students = [
     {
-        firstName: "hahah",
-        lastName: "hehehe",
+        firstName: "i detest",
+        lastName: "shao wei lin",
         graduated: false,
         DOB: 2333,
         siblings: ["eeeee"],
@@ -10,8 +10,8 @@ const students = [
         },
     },
     {
-        firstName: "hahhe",
-        lastName: "hehe",
+        firstName: "shaowei",
+        lastName: "lin is horrible",
         graduated: false,
         DOB: 23,
         siblings: ["yahaha"],
@@ -20,8 +20,8 @@ const students = [
         },
     },
     {
-        firstName: "hah",
-        lastName: "hehahe",
+        firstName: "shaowei",
+        lastName: "isbad",
         graduated: true,
         DOB: 3323,
         siblings: ["wwwwddd"],
@@ -30,8 +30,8 @@ const students = [
         },
     },
     {
-        firstName: "hwwsse",
-        lastName: "heaaa",
+        firstName: "weewee",
+        lastName: "suks",
         graduated: true,
         DOB: 7773,
         siblings: ["ymemem"],
