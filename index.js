@@ -41,7 +41,7 @@ const students = [
     },
 ];
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+//const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 //index starts at 0
 //console.log(numbers[numbers.length - 1]);
 //foreach is a for loop
@@ -49,5 +49,5 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 //numbers.forEach((number, index) => console.log(number, index));
 //students.forEach((student) => console.log(student.firstName));
 
-const current = students.filter((student)=> student.graduated !== true);
+const current = students.filter((student)=> student.graduated == true);
 console.log(current);
