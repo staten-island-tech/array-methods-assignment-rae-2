@@ -1,9 +1,9 @@
-const students = [
+const cheese = [
     {
-        firstName: "i detest",
-        lastName: "shao wei lin",
-        graduated: false,
-        DOB: 2333,
+        typesofCheese: "Fresh",
+        texture: "soft with creamy textures",
+        flavor: mild,
+        time: 2 +"weeks",
         siblings: ["eeeee"],
         age: function () {
             return year - this.DOB;
