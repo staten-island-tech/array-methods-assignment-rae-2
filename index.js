@@ -2,22 +2,16 @@ const cheese = [
     {
         typesofCheese: "Fresh",
         texture: "soft with creamy textures",
-        flavor: mild,
-        time: 2 +"weeks",
-        siblings: ["eeeee"],
-        age: function () {
-            return year - this.DOB;
-        },
+        flavor: "mild",
+        time: 2 + "to 3" +"weeks",
+        examples: ["cottage cheese", "chevre", "cream cheese", "mascarpone"],
     },
     {
-        firstName: "shaowei",
-        lastName: "lin is horrible",
-        graduated: false,
-        DOB: 23,
-        siblings: ["yahaha"],
-        age: function () {
-            return year - this.DOB;
-        },
+        firstName: "Pasta Filata",
+        texture: "soft with creamy textures",
+        flavor: "mild",
+        time: 2 + "to 3" +"weeks",
+        examples: ["cottage cheese", "chevre", "cream cheese", "mascarpone"],
     },
     {
         firstName: "shaowei",
