@@ -1,37 +1,38 @@
-const cheese = [
+const cheeses = [
     {
-        typesofCheese: "Fresh",
-        texture: "soft with creamy textures",
-        flavor: "mild",
-        time: 2 + "to 3" +"weeks",
-        examples: ["cottage cheese", "chevre", "cream cheese", "mascarpone"],
+        typeofcheese: "mozzarella",
+        texture: "moist, elastic texture",
+        hard: false,
+        color: "pale yellow",
+        recipes: ["pizza", "caprese salad", "cheese and fresh herb quiche"],
     },
     {
-        firstName: "Pasta Filata",
-        texture: "soft with creamy textures",
-        flavor: "mild",
-        time: 2 + "to 3" +"weeks",
-        examples: ["cottage cheese", "chevre", "cream cheese", "mascarpone"],
+        typeofcheese: "cheddar",
+        texture: "ranges from mild and buttery to sharp and biting",
+        hard: true,
+        color: "orange, can be paler",
+        recipes: ["mac and cheese", "cornbread", "dips"],
     },
     {
-        firstName: "shaowei",
-        lastName: "isbad",
-        graduated: true,
-        DOB: 3323,
-        siblings: ["wwwwddd"],
-        age: function () {
-            return year - this.DOB;
-        },
+        typeofcheese: "neufchatel",
+        texture: "grainy, soft when mature",
+        hard: false,
+        color: "soft white",
+        recipes: ["neufchatel cheesecake", "linguine and asparagus with creamy sauce", "margarita cheesecake"],
     },
     {
-        firstName: "weewee",
-        lastName: "suks",
-        graduated: true,
-        DOB: 7773,
-        siblings: ["ymemem"],
-        age: function () {
-            return year - this.DOB;
-        },
+        typeofcheese: "paneer",
+        texture: "crumbly, spongy and soft",
+        hard: false,
+        color: "white",
+        recipes: ["Paneer pulao", "Paneer tikka", "Paneer lababdar"],
+    },
+    {
+        typeofcheese: "parmesan",
+        texture: "crumbly",
+        hard: true,
+        color: "pale yellow",
+        recipes: ["caesar salad", "one-pot lemon garlic shrimp pasta", "creamy chicken penne pasta"],
     },
 ];
 
@@ -43,5 +44,11 @@ const cheese = [
 //numbers.forEach((number, index) => console.log(number, index));
 //students.forEach((student) => console.log(student.firstName));
 
-const current = students.filter((student)=> student.graduated == true);
-console.log(current);
+cheeses.forEach((cheese)=>{
+    console.log(cheese.typeofcheese);
+    cheese.recipes.forEach((recipes)=>{
+        console.log(recipes);
+    });
+});
+const hard = cheeses.filter((cheese)=> cheese.hard == true);
+console.log(hard);
