@@ -1,34 +1,34 @@
 const cheeses = [
     {
-        typeofcheese: "mozzarella",
+        typeofcheese: " ! MOZZARELLA",
         texture: "moist, elastic texture",
         hard: false,
         color: "pale yellow",
         recipes: ["pizza", "caprese salad", "cheese and fresh herb quiche"],
     },
     {
-        typeofcheese: "cheddar",
+        typeofcheese: " ! CHEDDAR",
         texture: "ranges from mild and buttery to sharp and biting",
         hard: true,
         color: "orange, can be paler",
         recipes: ["mac and cheese", "cornbread", "dips"],
     },
     {
-        typeofcheese: "neufchatel",
+        typeofcheese: " ! NEUFCHATEL",
         texture: "grainy, soft when mature",
         hard: false,
         color: "soft white",
         recipes: ["neufchatel cheesecake", "linguine and asparagus with creamy sauce", "margarita cheesecake"],
     },
     {
-        typeofcheese: "paneer",
+        typeofcheese: " ! PANEER",
         texture: "crumbly, spongy and soft",
         hard: false,
         color: "white",
-        recipes: ["Paneer pulao", "Paneer tikka", "Paneer lababdar"],
+        recipes: ["paneer pulao", "paneer tikka", "paneer lababdar"],
     },
     {
-        typeofcheese: "parmesan",
+        typeofcheese: " ! PARMESAN",
         texture: "crumbly",
         hard: true,
         color: "pale yellow",
@@ -52,3 +52,8 @@ cheeses.forEach((cheese)=>{
 });
 const hard = cheeses.filter((cheese)=> cheese.hard == true);
 console.log(hard);
+cheeses
+    .filter((cheese)=> cheese.color = 'pale yellow')
+    .forEach((cheese)=> {
+        console.log(cheese);
+    })
