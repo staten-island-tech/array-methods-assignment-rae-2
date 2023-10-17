@@ -52,8 +52,3 @@ cheeses.forEach((cheese)=>{
 });
 const hard = cheeses.filter((cheese)=> cheese.hard == true);
 console.log(hard);
-cheeses
-    .filter((cheese)=> cheese.color = 'pale yellow')
-    .forEach((cheese)=> {
-        console.log(cheese);
-    })
